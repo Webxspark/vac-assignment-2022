@@ -1,33 +1,3 @@
-/*------------------------------------------------------------------
-[Main Stylesheet]
-
-Project:    INVO
-Version:    1.1.0
--------------------------------------------------------------------*/
-
-/*------------------------------------------------------------------
-[Table of contents]
-    *. Invoice 1 / .invoice-1
-    *. Invoice 2 / .invoice-wxp
-    *. Invoice 3 / .invoice-3
-    *. Invoice 4 / .invoice-4
-    *. Invoice 5 / .invoice-5
-    *. Invoice 6 / .invoice-6
-    *. Invoice 7 / .invoice-7
-    *. Invoice 8 / .invoice-8
-    *. Invoice 9 / .invoice-9
-    *. Invoice 10 / .invoice-10
-    *. Invoice 11 / .invoice-11
-    *. Invoice 12 / .invoice-12
-    *. Invoice 13 / .invoice-13
-    *. Invoice 14 / .invoice-14
-    *. Invoice 15 / .invoice-15
-    *. Invoice 16 / .invoice-16
-    *. Invoice 17 / .invoice-16
-
--------------------------------------------------------------------*/
-/** GLOBAL CLASSES **/
-
 .table {
     color: #535353;
 }
