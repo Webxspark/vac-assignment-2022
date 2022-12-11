@@ -8,6 +8,6 @@ This assignment was submitted by **Alan Christofer (RA2211003020264)** from **CS
 * To claim a valid licence, please contact copyright@webxspark.com for more info
 ## Tech Stack
 
-**Client:** Bootstrap CSS, wxp.js
+**Client:** Wxp.js, Bootstrap
 
 **Server:** PHP
