@@ -5,7 +5,12 @@ function rand(min, max) {
 var page = {
     _init_() {
         this.init_event_listeners();
-        this.load_data()
+        this.load_data();
+        var dateObj = new Date();
+        var year = dateObj.getUTCFullYear();
+        const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
+        month = monthNames[dateObj.getMonth()];
+        Wxp_DOM.render(`${month} ${year}`,'[key="month-year"]');
     },
     load_data() {
         return new Promise((resolve, reject) => {
