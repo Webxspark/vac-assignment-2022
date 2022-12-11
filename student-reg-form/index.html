@@ -1,0 +1,156 @@
+<!-- This source code was submitted by B.Alan Christofer (RA2211003020264) from CSE - E
+    * Copyright (C) 2022 webxspark.com - All Rights Reserved
+    * Distribution of this source code without permission is illegal
+    * To claim a valid licence, please contact copyright@webxspark.com for more info
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form | Alan Christofer</title>
+    <link rel="stylesheet" href="./assets/plugins.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="https://cdn.webxspark.com/plugins/css/duDialog.min.css">
+</head>
+
+<body>
+    <wxp-app>
+        <div class="content-wrapper">
+            <section class="wrapper bg-dark text-white">
+                <div class="container pt-18 pt-md-10 pb-11 pb-md-21 text-center">
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /section -->
+            <section class="wrapper bg-light">
+                <div class="container pb-14 pb-md-16">
+                    <div class="row">
+                        <div class="col mt-n19">
+                            <div class="card shadow-lg">
+                                <div class="row gx-0 text-center">
+                                    <div class="col-lg-6 image-wrapper bg-image bg-cover rounded-top rounded-lg-start d-none d-md-block"
+                                        data-image-src="./assets/img/photos/tm3.jpg"
+                                        style="background-image: url('./assets/img/photos/tm3.jpg');">
+                                    </div>
+                                    <!--/column -->
+                                    <div class="col-lg-6">
+                                        <div class="p-10 p-md-11 p-lg-13" wxp-root="form">
+                                            <wxp-form>
+
+                                                <h2 class="mb-3 text-start">Students Registration Form</h2>
+                                                <p class="lead mb-6 text-start">It takes less than a minute.</p>
+                                                <form class="text-start mb-3" method="post" id="regForm">
+                                                    <div class="row gx-4">
+                                                        <div class="col-md-6">
+                                                            <div class="form-floating mb-4">
+                                                                <input type="text" name="fname" class="form-control"
+                                                                    placeholder="Jane">
+                                                                <label for="form_name">First Name *</label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /column -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-floating mb-4">
+                                                                <input type="text" name="lname" class="form-control"
+                                                                    placeholder="Doe">
+                                                                <label for="form_lastname">Last Name *</label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /column -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-floating mb-4">
+                                                                <input type="email" name="email" class="form-control"
+                                                                    placeholder="jane.doe@example.com">
+                                                                <label for="form_email">Email *</label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /column -->
+                                                        <div class="col-md-6">
+                                                            <div class="form-select-wrapper mb-4">
+                                                                <select class="form-select" name="gender">
+                                                                    <option selected="" disabled="" value="">Gender *
+                                                                    </option>
+                                                                    <option value="Male">Male</option>
+                                                                    <option value="Female">Female</option>
+                                                                    <option value="Others">Others</option>
+                                                                    <option value="Prefer not to say">Prefer not to say
+                                                                    </option>
+                                                                    </option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /column -->
+                                                        <div class="form-floating mb-4">
+                                                            <input type="text" class="form-control"
+                                                                placeholder="Register Number" name="regno">
+                                                            <label for="loginRegisterNumber">Register Number *</label>
+                                                        </div>
+                                                        <div class="form-floating mb-4">
+                                                            <input type="text" class="form-control"
+                                                                placeholder="Year/Sem/Sec" name="classInfo">
+                                                            <label for="classInfo">Year/Sem/Sec *</label>
+                                                        </div>
+                                                        <div class="form-floating mb-4">
+                                                            <input type="date" class="form-control"
+                                                                placeholder="Date of Birth" name="dob">
+                                                            <label for="dob">Date of Birth *</label>
+                                                        </div>
+                                                        <div class="col-12">
+                                                            <div class="form-floating mb-4">
+                                                                <textarea name="address" name="address"
+                                                                    class="form-control" placeholder="Your Address"
+                                                                    style="height: 150px"></textarea>
+                                                                <label for="address">Address *</label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /column -->
+                                                        <div class="col-12">
+                                                            <div class="form-check mb-4">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    value="accepted" name="invalidCheck">
+                                                                <label class="form-check-label" for="invalidCheck"> I
+                                                                    agree
+                                                                    to <a href="javascript:void(0);" wxp-tnc
+                                                                        class="hover">terms and policy</a>.
+                                                                </label>
+                                                            </div>
+                                                        </div>
+                                                        <!-- /column -->
+                                                    </div>
+                                                    <button type="submit"
+                                                        class="btn btn-primary rounded-pill btn-login w-100 mb-2">Register</button>
+                                                </form>
+                                                <!-- /form -->
+                                            </wxp-form>
+                                        </div>
+                                        <!--/div -->
+                                    </div>
+                                    <!--/column -->
+                                </div>
+                                <!--/.row -->
+                            </div>
+                            <!-- /.card -->
+                        </div>
+                        <!-- /column -->
+                    </div>
+                    <!-- /.row -->
+                </div>
+                <!-- /.container -->
+            </section>
+            <!-- /section -->
+        </div>
+        <!-- /.content-wrapper -->
+    </wxp-app>
+    <script src="//cdn.webxspark.com/plugins/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.webxspark.com/plugins/js/duDialog.min.js"></script>
+    <script src="./js/plugins.js"></script>
+    <script src="./js/theme.js"></script>
+    <script src="./js/wxp.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
